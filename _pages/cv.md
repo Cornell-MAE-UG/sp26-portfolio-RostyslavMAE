@@ -1,6 +1,6 @@
 ---
 layout: default
-title: <Your Name> - Curriculum Vitae
+title: <Rostyslav Dashkiiev> - Curriculum Vitae
 permalink: /cv/
 ---
 ## Curriculum Vitae
@@ -8,9 +8,7 @@ permalink: /cv/
 [Download my CV]({{ "/assets/CV.pdf" | relative_url }}) in PDF format.
 
 
-**Email:** [netID@cornell.edu](mailto:netID@cornell.edu) | | | **Phone:** +123 456 7890
-
----
+**Email:** [rd652@cornell.edu](mailto:rd652@cornell.edu) | | | **Phone:** +### ### ####
 
 #### Objective
 Aspiring engineering student with a strong foundation in.... Passionate about ... and eager to apply my knowledge in real-world applications.
