@@ -1,6 +1,6 @@
 ---
 layout: default
-title: <Your Name>
+title: <Rostyslav Dashkiiev>
 ---
 
 ## About Me
