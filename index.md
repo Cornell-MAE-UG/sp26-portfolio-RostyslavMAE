@@ -14,4 +14,7 @@ My name is Rostyslav Dashkiiev, and I am a mechanical engineering student at Cor
 
 
 Take a look at my projects:
-<a href="/projects/macadamia-nutcracker/">Macadamia Nutcracker</a>
+<a href="https://github.com/Cornell-MAE-UG/sp26-portfolio-RostyslavMAE/blob/main/_projects/Macadamia%20Nutcracker.md">
+  Macadamia Nutcracker
+</a>
+
