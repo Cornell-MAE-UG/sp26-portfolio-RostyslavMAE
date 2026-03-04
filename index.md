@@ -14,6 +14,6 @@ My name is Rostyslav Dashkiiev, and I am a mechanical engineering student at Cor
 
 
 Take a look at my
-[Macadoaia]({{ "/projects/Macadamia/" | relative_url }})projects.
+[Macadamia]({{ "/projects/Macadamia/" | relative_url }})projects.
 </a>
 
