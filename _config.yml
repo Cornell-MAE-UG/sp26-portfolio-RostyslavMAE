@@ -13,7 +13,8 @@ title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : Rostyslav Dashkiiev
 description              : Rostyslav Dashkiiev - Projects and CV 
-baseurl                  : "" # Set this to your repo name 
+baseurl                  : "/sp26-portfolio-RostyslavMAE" # Set this to your repo name 
+url: "https://cornell-mae-ug.github.io"
 
 # Theme and Style
 theme: jekyll-theme-minimal
