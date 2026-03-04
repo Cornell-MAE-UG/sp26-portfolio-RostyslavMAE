@@ -21,7 +21,7 @@ technologies: [Pen and Paper]
 - The first iteration (lenght of 20cm) was sufficient to supply a high enough force to crack the nut through analysis of reaction forces at joints, as seen on the paper, the output force directed at the nut is 3300 Newtons which exceeds that needed to crack it of 2200N. 
 
 4. 
-<img width="229" height="300" alt="Screenshot 2026-03-03 at 22 45 28" src="https://github.com/user-attachments/assets/181e5b58-060e-4450-ad25-fea738f9ff23" />
+<img width="458" height="600" alt="Screenshot 2026-03-03 at 22 45 28" src="https://github.com/user-attachments/assets/181e5b58-060e-4450-ad25-fea738f9ff23" />
 
 5. 
 - The design is very reasonable in dimensions and outputs significantly higher force than that required to crack a macadonia nut. Given that all parts are made from steel or a harder material, the design will withstand the high forces at play.
@@ -31,8 +31,6 @@ technologies: [Pen and Paper]
 
 **References:**
 
-The average macadamia nut size is in the range of 13-20mm
-https://alohafarmshawaii.com/services/macadamia-nuts/
+The average macadamia nut size is in the range of 13-20mm: https://alohafarmshawaii.com/services/macadamia-nuts/
 
-The average grip strength is around 300 Newtons. 
-https://nonprofitrisk.org/resources/grip-strong-and-prosper/
+The average grip strength is around 300 Newtons: https://nonprofitrisk.org/resources/grip-strong-and-prosper/
