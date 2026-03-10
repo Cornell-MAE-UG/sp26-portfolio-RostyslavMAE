@@ -15,7 +15,7 @@ technologies: [Pen and Paper]
 - To achieve a required load of 220kg on the nut, we must use a lever arm mechanism to amplify output force.
 - The macadamia nut needs to be put in compression in a secured spot that is around its size.
 - Due to the significant size of the lever arm required to go from the grip strength of around 300N to 2200N, the nutcracker should be a tabletop with a large base of easily manufacturable material like wood.
-- The initial lever arm design should be long, but reasonable in length for a table. This prompted my use of 20 cm for the lever arm from the handle to the piston driver pin.
+- The initial lever arm design should be long, but reasonable in length for a table. This prompted my use of 20 cm for the lever arm from the handle to the piston driver pin. The orientation of the lever on the picture is made for demonstration of dimensions, the angle between the lever and base should be no greate than 60 degrees. 
 - The cracker should employ a piston mechanism because pistons easily slide through a cylinder and would thus only output a force in one direction even if there is resistance to other axis. A cylinder is necessary to ensure stability of the piston given the large forces at play.
 - The holders of the nut should be jagged to concetrate forces and prevent sliding of the nut when it is in the process of being cracked.
 - The first iteration (lenght of 20cm) was sufficient to supply a high enough force to crack the nut through analysis of reaction forces at joints, as seen on the paper, the output force directed at the nut is 3300 Newtons which exceeds that needed to crack it of 2200N. 
