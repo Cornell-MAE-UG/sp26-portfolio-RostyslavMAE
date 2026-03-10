@@ -28,9 +28,14 @@ technologies: [Pen and Paper]
 - The handle and the actuation mechanism, assumed to be cylindrical with a rubber grip, are assumed to be able to withstand the bending force because of their significant diameter of 2 centimeters. 
 - The design is very relatively easy to manufacture because of a lack of complex geometry and relative small number of parts.
 
+6. To incorporate a linear actuator to the system, we can securely attach the linear actuator in the middle of the base, at the far right of the picture and point the actuation mechanism 45 degrees clockwise. We can attack a bike chain to the point of application of force on the lever securely and its other end to the linear actuator's end and a plate to prevent sliding. The chain should be made tight in the resting position to prevent it from sliding off. The actuator extends 8 inches, or around 18 cm, which would adequately adjust for 
 
 **References:**
 
 The average macadamia nut size is in the range of 13-20mm: https://alohafarmshawaii.com/services/macadamia-nuts/
 
 The average grip strength is around 300 Newtons: https://nonprofitrisk.org/resources/grip-strong-and-prosper/
+
+A bike chain can withstand 8 thousand newtons of tensile force: https://zerofrictioncycling.com.au/wp-content/uploads/2020/01/Converting-Pedalling-Watts-to-Newtons-v6.pdf
+
+Linear actuator https://www.progressiveautomations.com/products/pa-mc2
