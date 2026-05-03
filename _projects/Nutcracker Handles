@@ -27,7 +27,27 @@ Since there are no material limitations for this project, we can utilize titaniu
 
 Given F=300, L=0.2m, E=110GPA, we can solve for I. 
 
-I=
+δ=Fb^3/(3EI) becomes
+I>=Fb^3/(3Eδ)
+
+​I>=300*0.18^3/(3*(110*10^9*0.004))
+I>=1.33*10^-9m^4
+
+Now we use I=bh^3/12-b_i-h_i^3/12 to check for an optimal dimension.
+
+To maintain a handle's ability to be usable, we assume base to be half the height. We must make height as great as possible to make use of the cube relationship in the inertia equation. 
+
+Try: height = 20mm
+width = 10mm 
+thickness t = 1.5mm
+
+This gives us a result of: 
+I = 2.0×10−9 m^4
+
+This is greater than 1.33*10^-9m^4, satisfying the constraint. However, anything less than these dimensions would be uncomfortable to hold and max experience greater metal fatigue due to repeated use. Thus it is best to stick the provided dimensions at the cost of some mass efficiency. This allows us to achieve a factor of safety as well, preventing catastrophic failure and potential injury.
+
+
+
 
 
 
