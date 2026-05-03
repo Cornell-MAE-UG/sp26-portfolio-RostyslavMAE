@@ -12,15 +12,25 @@ b) Choose a “beam” design (cross-section, material) such that the vertical e
 deflection is below 2% of its length and is the most mass-efficient possible.
 c) Present your final design in an image or drawing"
 
-The problem statement limits the bending amount in my beam to
-δmax​=0.02×L=0.02×0.2=0.004m= 4mm
+The problem statement limits the bending amount in my beam to 
+                        δmax​=0.02×L=0.02×0.2=0.004m     =     4mm
+
+In my situation, the lever arm can be assumed to be a free end with applied force P at its end. Through appendix E of the Statics and Mechanics textbook used, the maximum deflection can be said to occur at the end of the free hanging beam. The magnitude of the maximum deflection is FL^3/(3EI) where F is the force applied, E is young's modulus and I is the moment of inertia. 
+
+We must set the maximum deflection to 4mm, or 0.004m.
+
+We must next optimize the moment of inertia. Previously, a solid circular rod was assumed to be used. However, the moment of inertia is much better if we remove low-stress core material and make a hollow circular tube. 
+The tube's inertia would be I=pi/64(D^4-d^4) where D is the larger radius and d the smaller. 
+This could be done, though an even better option would be a rectangular hollow section tube, since the problem statement somewhat implies beams must be rectangular. This results in I=bh^3/12-b_i-h_i^3/12 relationship for inertia, where i is an index to differentiate one height from the other. This operation also removes the low stress inner parts of the tube. 
+
+Since there are no material limitations for this project, we can utilize titanium. Titanium is a lightweight material that will be greatly efficient for mass efficiency part of the prompt. Titanium has an elastic modulus of around 110 GPA at 20 degreees celsius.
+
+Given F=300, L=0.2m, E=110GPA, we can solve for I. 
+
+I=
 
 
 
-M(x)=F(L−x)
 
-EIy'' = F(L-x)
-EIy' = F(Lx-x^2/2)+C1
-EIy = F(1/2Lx^2-x^3/6)+C1x+C2
-
+Titanium elastic modulus: https://www.azom.com/article.aspx?ArticleID=1341
 
