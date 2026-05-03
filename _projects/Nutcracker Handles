@@ -11,3 +11,16 @@ assumptions clearly and describe your analysis.
 b) Choose a “beam” design (cross-section, material) such that the vertical elastic
 deflection is below 2% of its length and is the most mass-efficient possible.
 c) Present your final design in an image or drawing"
+
+The problem statement limits the bending amount in my beam to
+δmax​=0.02×L=0.02×0.2=0.004m= 4mm
+
+
+
+M(x)=F(L−x)
+
+EIy'' = F(L-x)
+EIy' = F(Lx-x^2/2)+C1
+EIy = F(1/2Lx^2-x^3/6)+C1x+C2
+
+
