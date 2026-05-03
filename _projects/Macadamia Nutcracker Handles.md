@@ -53,10 +53,7 @@ I = 2.0×10−9 m^4
 
 This is greater than 1.33*10^-9m^4, satisfying the constraint. However, anything less than these dimensions would be uncomfortable to hold and max experience greater metal fatigue due to repeated use. Thus it is best to stick the provided dimensions at the cost of some mass efficiency. This allows us to achieve a factor of safety as well, preventing catastrophic failure and potential injury.
 
-[2026-05-03 11-59.pdf](https://github.com/user-attachments/files/27320766/2026-05-03.11-59.pdf)
-
-
-
+<img width="458" height="600" alt="Screenshot 2026-03-03 at 22 45 28" src="[https://github.com/user-attachments/assets/181e5b58-060e-4450-ad25-fea738f9ff23](https://github.com/user-attachments/files/27320782/updated.design.pdf)" />
 
 
 
