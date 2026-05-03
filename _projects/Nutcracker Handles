@@ -1,1 +1,13 @@
+To further enhance the Macadamia nutcracker project with newfound knowledge in of beams and bending in Statics and Mechanics, we are tasked with the following: 
 
+
+"Initially, the handles were considered in your design to be rigid. Now, assume the
+nutcracker handles are no longer rigid. In fact, they are now best described as
+beams which bend due to the combined action of the forces from the nut and from the
+actuator.
+Consider only the components of these forces transverse to your beam:
+a) Find the location of maximum elastic deflection in your handles. State your
+assumptions clearly and describe your analysis.
+b) Choose a “beam” design (cross-section, material) such that the vertical elastic
+deflection is below 2% of its length and is the most mass-efficient possible.
+c) Present your final design in an image or drawing"
