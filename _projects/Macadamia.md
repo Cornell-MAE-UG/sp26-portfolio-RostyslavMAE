@@ -39,3 +39,67 @@ The average grip strength is around 300 Newtons: https://nonprofitrisk.org/resou
 A bike chain can withstand 8 thousand newtons of tensile force: https://zerofrictioncycling.com.au/wp-content/uploads/2020/01/Converting-Pedalling-Watts-to-Newtons-v6.pdf
 
 Linear actuator https://www.progressiveautomations.com/products/pa-mc2
+
+Part 2
+
+
+To further enhance the Macadamia nutcracker project with newfound knowledge in of beams and bending in Statics and Mechanics, we are tasked with the following: 
+
+
+"Initially, the handles were considered in your design to be rigid. Now, assume the
+nutcracker handles are no longer rigid. In fact, they are now best described as
+beams which bend due to the combined action of the forces from the nut and from the
+actuator.
+Consider only the components of these forces transverse to your beam:
+a) Find the location of maximum elastic deflection in your handles. State your
+assumptions clearly and describe your analysis.
+b) Choose a “beam” design (cross-section, material) such that the vertical elastic
+deflection is below 2% of its length and is the most mass-efficient possible.
+c) Present your final design in an image or drawing"
+
+The problem statement limits the bending amount in my beam to 
+                        δmax​=0.02×L=0.02×0.2=0.004m     =     4mm
+
+In my situation, the lever arm can be assumed to be a free end with applied force P at its end. Through appendix E of the Statics and Mechanics textbook used, the maximum deflection can be said to occur at the end of the free hanging beam. The magnitude of the maximum deflection is FL^3/(3EI) where F is the force applied, E is young's modulus and I is the moment of inertia. 
+
+We must set the maximum deflection to 4mm, or 0.004m.
+
+We must next optimize the moment of inertia. Previously, a solid circular rod was assumed to be used. However, the moment of inertia is much better if we remove low-stress core material and make a hollow circular tube. 
+The tube's inertia would be I=pi/64(D^4-d^4) where D is the larger radius and d the smaller. 
+This could be done, though an even better option would be a rectangular hollow section tube, since the problem statement somewhat implies beams must be rectangular. This results in I=bh^3/12-b_i-h_i^3/12 relationship for inertia, where i is an index to differentiate one height from the other. This operation also removes the low stress inner parts of the tube. 
+
+Since there are no material limitations for this project, we can utilize titanium. Titanium is a lightweight material that will be greatly efficient for mass efficiency part of the prompt. Titanium has an elastic modulus of around 110 GPA at 20 degreees celsius.
+
+Given F=300, L=0.2m, E=110GPA, we can solve for I. 
+
+δ=Fb^3/(3EI) becomes
+I>=Fb^3/(3Eδ)
+
+​I>=300*0.18^3/(3*(110*10^9*0.004))
+I>=1.33*10^-9m^4
+
+Now we use I=bh^3/12-b_i-h_i^3/12 to check for an optimal dimension.
+
+To maintain a handle's ability to be usable, we assume base to be half the height. We must make height as great as possible to make use of the cube relationship in the inertia equation. 
+
+Try: height = 20mm
+width = 10mm 
+thickness t = 1.5mm
+
+This gives us a result of: 
+I = 2.0×10−9 m^4
+
+This is greater than 1.33*10^-9m^4, satisfying the constraint. However, anything less than these dimensions would be uncomfortable to hold and max experience greater metal fatigue due to repeated use. Thus it is best to stick the provided dimensions at the cost of some mass efficiency. This allows us to achieve a factor of safety as well, preventing catastrophic failure and potential injury.
+
+
+[updated design.pdf](https://github.com/user-attachments/files/27320794/updated.design.pdf)
+
+
+
+
+Titanium elastic modulus: https://www.azom.com/article.aspx?ArticleID=1341
+
+
+
+
+
